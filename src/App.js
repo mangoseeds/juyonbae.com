@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './App.css';
-import { useNavigate } from "react-router-dom";
 
 import Contact from './Contact';
 
