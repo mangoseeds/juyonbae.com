@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './App.css';
 
-import Contact from './Contact';
-
 function App() {
   const [mousePosition, setMousePosition] = useState({
     x: 0,
