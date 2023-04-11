@@ -2,10 +2,7 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { CursorContext } from './context/CursorContext';
-
-// import './App.css';
 import AnimRoutes from './components/AnimRoutes';
-import Home from './pages/Home';
 
 function App() {
 
@@ -14,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Home /> */}
         <AnimRoutes />
       </Router>
 

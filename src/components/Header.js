@@ -14,7 +14,7 @@ const Header = () => {
             <Link
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            to={'/home'}>Juyon Bae</Link>
+            to={'/'}>Juyon Bae</Link>
         </h1>
         {/* <button class="siteHeader_menuBtn" type="button" aria-label="Menu">
             <div class="shape">
@@ -25,8 +25,7 @@ const Header = () => {
         </button> */}
         <Nav />
     </header>
+  );
+};
 
-        
-  )
-
-}
+export default Header;

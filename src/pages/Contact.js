@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { CursorContext } from '../context/CursorContext';
+import Header from '../components/Header';
 import '../styles/contact.css';
 
 const Contact = () => {
@@ -8,12 +9,13 @@ const Contact = () => {
   
   return (    
     <motion.section
-      initial={{ opacity: 0, y: '100%' }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: '100%' }}
-      transition={{ delay: 0.5, duration: 2 }}
-      className='section'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ delay: 0.3, duration: 1 }}
+      className='contact-section'
     >
+        <Header />
         <div className='main'>
             <div className="title">
                 <h1>contact</h1>

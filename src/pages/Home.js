@@ -11,8 +11,8 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ delay: 0.5, duration: 2 }}
-      className='section'
+      transition={{ delay: 0.3, duration: 1 }}
+      className='home-section'
     >
         <div className='main'>
             <div className='top'>
@@ -27,7 +27,6 @@ const Home = () => {
         </div>
 
     </motion.section>
-    
   );
 };
 
