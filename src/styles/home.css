@@ -22,7 +22,7 @@
     background-color: #EDD2B9;
 } */
 
-main{
+.main{
     display: flex;
     overflow: hidden;
     align-items: space-around;

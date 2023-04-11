@@ -14,8 +14,8 @@ const Home = () => {
       transition={{ delay: 0.5, duration: 2 }}
       className='section'
     >
-        <main>
-            <div className="top">
+        <div className='main'>
+            <div className='top'>
                 <h1>Juyon Bae</h1>
             </div>
             <div className="main-page-item-container">
@@ -24,7 +24,7 @@ const Home = () => {
                 <Link to={'/experience'}  className="main-page-item">experience</Link>
                 <Link to={'/contact'} className="main-page-item">contact</Link>
             </div>
-        </main>
+        </div>
 
     </motion.section>
     

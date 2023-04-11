@@ -1,13 +1,11 @@
 import React, { useContext } from 'react';
-import { useNavigate } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { CursorContext } from './context/CursorContext';
 
-import './App.css';
-
+// import './App.css';
 import AnimRoutes from './components/AnimRoutes';
 import Home from './pages/Home';
-import { CursorContext } from './context/CursorContext';
 
 function App() {
 
@@ -16,19 +14,16 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Home />
+        {/* <Home /> */}
         <AnimRoutes />
       </Router>
 
       <motion.div 
-          className='cursor'
           variants={cursorVariants}
           animate={cursorBG}
+          className='w-[32px] h-[32px] bg-primary fixed top-0 left-0 pointer-events-none z-50 rounded-full'
       />
-
-
     </div>
-
   );
 }
 
