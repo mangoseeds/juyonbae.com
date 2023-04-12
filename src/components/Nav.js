@@ -22,12 +22,13 @@ const Nav = () => {
   return (
     <nav className='text-primary xl:hidden'>
       {/* nav open button */}
-      <div
-        onClick={() => setOpenMenu(true)}
-        className='text-3xl cursor-pointer'
-      >
-        <CgMenuRight />
-      </div>
+      <button className="siteHeader_menuBtn" type="button" onClick={() => setOpenMenu(true)}>
+          <div className="shape">
+              <div className="line line-top"></div>
+              <div className="line line-center"></div>
+              <div className="line line-bottom"></div>
+          </div>
+      </button>
       {/* menu */}
       <motion.div
         variants={menuVariants}

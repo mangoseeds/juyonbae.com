@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import '../styles/contact.css';
 
 const Contact = () => {
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+  // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   
   return (    
     <motion.section

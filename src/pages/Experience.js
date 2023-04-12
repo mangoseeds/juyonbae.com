@@ -4,7 +4,7 @@ import { CursorContext } from '../context/CursorContext';
 import '../styles/experience.css';
 
 const Experience = () => {
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+  // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
     <motion.section

@@ -5,7 +5,7 @@ import { CursorContext } from '../context/CursorContext';
 import '../styles/home.css';
 
 const Home = () => {
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+  // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (    
     <motion.section
       initial={{ opacity: 0 }}

@@ -6,7 +6,7 @@ import AnimRoutes from './components/AnimRoutes';
 
 function App() {
 
-  const { cursorVariants, cursorBG } = useContext(CursorContext);
+  // const { cursorVariants, cursorBG } = useContext(CursorContext);
 
   return (
     <div className="App">
@@ -14,11 +14,11 @@ function App() {
         <AnimRoutes />
       </Router>
 
-      <motion.div 
+      {/* <motion.div 
           variants={cursorVariants}
           animate={cursorBG}
-          className='w-[32px] h-[32px] bg-primary fixed top-0 left-0 pointer-events-none z-50 rounded-full'
-      />
+          className='w-[20px] h-[20px] bg-primary fixed top-0 left-0 pointer-events-none z-50 rounded-full'
+      /> */}
     </div>
   );
 }
