@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* cursor: none; */
+    /* cursor: none; */ 
 }
 
 Link {
@@ -102,7 +102,16 @@ h3 {
 .item {
     text-align: right;
     font-weight: 700;
-    /* color: white; */
+    color: #EDD2B9;
+    text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-style: italic;
 }
 
 
@@ -184,6 +193,5 @@ h3 {
     }
     .item{
         font-size: 3em;
-
     }
 }
