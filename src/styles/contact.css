@@ -17,7 +17,7 @@ Link {
     font-size: inherit;
 }
 
-.siteHeader {
+/* .siteHeader {
     position: fixed;
     z-index: 10;
     left: 0;
@@ -55,7 +55,7 @@ Link {
 .siteHeader_menuBtn .line-bottom {
     bottom: 0;
     width: 50%;
-}
+} */
 
 main {
     display: flex;
@@ -67,8 +67,7 @@ h1 {
     font-style: italic;
     font-weight: 700;
     padding: 1em;
-    /* color: white; */
-
+    color: #EDD2B9;
 }
 
 h2 {
@@ -96,7 +95,6 @@ h3 {
     width: 100%;
     margin-top: 40px;
     margin-right: 20px;
-    
 }
 
 .item {
