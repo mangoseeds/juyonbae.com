@@ -8,5 +8,55 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    /* overflow: hidden; */
     /* cursor: none; */
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.about-info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    list-style-type: none;
+    height: auto;
+    margin: 20px 10px 20px 0;
+}
+
+.section {
+    color: #EDD2B9;
+    padding: 10px;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 700;
+    /* padding: 1em; */
+    color: #EDD2B9;
+}
+
+h2 {
+    color: #EDD2B9;
+    font-style: italic;
+    text-shadow: -1.3px 0 #2D2824, 0 1.3px #2D2824, 1.3px 0 #2D2824, 0 -1.3px #2D2824;
+    font-size: 2em;
+}
+
+p {
+    color: #2D2824;
+    font-style: normal;
+    font-size: 1em;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-style: italic;
 }

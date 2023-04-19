@@ -18,7 +18,7 @@ const About = () => {
             <div classname="title">
                 <h1>about</h1>
             </div>
-            <div class="section-container"> 
+            <div class="about-info-area"> 
                 <div class="section">
                     <h2>Introduction</h2>
                     <p>I am a student at Ewha Womens University majoring in computer science and engineering with strong interest in data science and data analytics.</p>
