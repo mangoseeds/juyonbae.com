@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { CursorContext } from '../context/CursorContext';
-import '../styles/projects.css';
+import '../styles.css';
 
 const Projects = () => {
   // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
