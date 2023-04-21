@@ -23,12 +23,12 @@ const About = () => {
                 <div className="section">
                     <div className="section-title">
                         {/* <p>I'm Juyon. Currently pursuing a computer science bachelor's degree.</p> */}
-                        <p>Making and building things have always excited me.</p>
-                        <p>I love coming up with new ideas and starting on a project to make it come true!</p>
+                        <p>Coming up with a creative idea and making it come true in real life always excites me.</p>
+                        <p>A keen eye to detail and meticulous planning has helped me in the journey to achieving my ideas. I especially enjoy working on a project that can bring convenience to people's day-to-day life experience.</p>
                     </div>
                     <div className="section-title">
-                        <p>Art and music has been a big part of my life. It keeps me inspired for more creativity.</p>
-                        <p>All photos on this website is taken by me on my film camera.</p>
+                        <p>Art and music is a big part of my life as well! It keeps me inspired for more creativity.</p>
+                        <p>(All photos on this website is taken by me on my film camera)</p>
                     </div>
                 </div>
                 <div className="section">
@@ -80,7 +80,13 @@ const About = () => {
                             <li>Learned the fundamentals of computer vision, including NumPy, PyPlot, Keras libraries.</li>
                             <li>Created an image classification learning model that detects numbers in images. Applied techniques such as batch normalization, pooling, and cross‑validation. The final model showed 93% accuracy.</li>
                             <li>Awarded the best tutee certificate for outstanding accomplishments and participation in the class.</li>
-                        </ul>    
+                        </ul>   
+                        <p>After‑School Computer Science Class Teacher</p>  
+                        <ul>
+                            <li>Prepared lessons for students grades K-5, and taught classes with 15-20 students.</li>
+                            <li>Simplified complex topics such as computer science, machine learning, electrical engineering, and robotics, into digestible lessons for younger students.</li>
+                            <li>Delivered hands-on teaching to improve comprehension and provide in-depth answers</li>
+                        </ul>   
                     </div>  
                 </div>
                   

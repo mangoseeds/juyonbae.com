@@ -21,45 +21,57 @@ const Projects = () => {
 
           <div className="subpage-bottom"> 
               <div className="section">
-                  <div className="section-title">
-                      <p>Data</p>
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/juyonbae.com">Video Log (in progress)</a>
                   </div>
                   <div className="section-detail">
-                      <p><strong>Programming:</strong> Python, Java, C, SQL, Linux, Latex</p>
-                      <p><strong>Languages:</strong> Fluent English and Korean. Basic Japanese and French. </p>    
+                    Video-journaling Android application.
                   </div>        
               </div>
-              <div class="section">
-                  <div className="section-title">
-                      <p>education</p>
+              <div className="section">
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/juyonbae.com">My Website</a>
                   </div>
                   <div className="section-detail">
-                      <p>Ewha Womens University, Computer Science and Engineering</p> 
-                      <ul>
-                          <li>CS Courses: Data Structures, Computer Algorithms, Operating Systems, Database, Computer Architecture, Information Communications</li>
-                          <li>Math Courses: Calculus, Probability and Statistics, Discrete Mathematics, Linear Algebra</li>
-                          <li><strong>Dean’s List</strong> in 2020 Spring, 2020 Fall</li>
-                      </ul>
-                      <p>Hunter College, Visiting Student</p>
-                      <ul>
-                          <li>CS Courses: CS Courses: Logic and Computers, Algorithms (Graduate Level)</li>
-                      </ul>
-                  </div>  
+                    My website (the page you are on right now!) built using Netlify and Github. Started with html and css file and transitioned it to react. 
+                  </div>        
+              </div>
+              <div className="section">
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/LiSiruiRay/AIAgent">Trip Genie</a>
+                  </div>
+                  <div className="section-detail">
+                    HackPrinceton 2023: AI travel agent that helps in planning and booking your trip. Contributed on frontend and visual representation of the website. 
+                  </div>        
+              </div>
+              <div className="section">
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/8888">Christmas MBTI test website (in progress)</a>
+                  </div>
+                  <div className="section-detail">
+                    Visually simple and appeasing MBTI test website with a Christmas theme.
+                  </div>        
+              </div>
+              <div className="section">
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/RacingCarGame">Racing Car Game using Python</a>
+                  </div>
+                  <div className="section-detail">
+                    A racing game with visuals and music using PyGame.
+                  </div>        
               </div>
 
-              <div class="section">
-                  <div className="section-title">
-                      <p>experience</p>
+              <div className="section">
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/machine-learning">Machine Learning</a>
                   </div>
                   <div className="section-detail">
-                      <p>Dacon School Computer Vision Program</p>  
-                      <ul>
-                          <li>Learned the fundamentals of computer vision, including NumPy, PyPlot, Keras libraries.</li>
-                          <li>Created an image classification learning model that detects numbers in images. Applied techniques such as batch normalization, pooling, and cross‑validation. The final model showed 93% accuracy.</li>
-                          <li>Awarded the best tutee certificate for outstanding accomplishments and participation in the class.</li>
-                      </ul>    
-                  </div>  
-              </div>   
+                    Learned and implemented various machine learning models to classification and regression dataset.{"\n"}Utilized sklearn for machine learning models and graphviz, matplotlib for data visualization.
+                  </div>        
+              </div>
+
+              <div className="section">
+                  <div className="section-title">
+                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/data-analysis">Data Analysis</a>
+                  </div>
+                  <div className="section-detail">
+                    Learned the process of data analysis.{"\n"} Utilized libraries such as numpy and pandas.
+                  </div>        
+              </div>
           </div>               
       </div>        
     </motion.section>
