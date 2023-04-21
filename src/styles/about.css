@@ -29,7 +29,7 @@ main {
 }
 
 .section {
-    color: #EDD2B9;
+    color: #ffe4ca;
     padding: 10px;
 }
 
@@ -37,11 +37,11 @@ h1 {
     font-style: italic;
     font-weight: 700;
     /* padding: 1em; */
-    color: #EDD2B9;
+    color: #ffe4ca;
 }
 
 h2 {
-    color: #EDD2B9;
+    color: #ffe4ca;
     font-style: italic;
     text-shadow: -1.3px 0 #2D2824, 0 1.3px #2D2824, 1.3px 0 #2D2824, 0 -1.3px #2D2824;
     font-size: 2em;

@@ -21,9 +21,9 @@ const Contact = () => {
                 <div className="title">contact</div>
             </div>
             <div className="subpage-bottom">
-              <div className="big-item-still">email: &nbsp; juyonbae@gmail.com</div>
-              <div className="big-item"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juyon-bae/">LinkedIn</a></div>                    
-              <div className="big-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds">GitHub</a></div>
+              <div className="small-item">juyonbae@gmail.com</div>
+              <div className="small-item"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juyon-bae/">LinkedIn</a></div>                    
+              <div className="small-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds">GitHub</a></div>
             </div>
         </div>
 

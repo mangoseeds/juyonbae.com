@@ -37,7 +37,7 @@ const CursorProvider = ({ children }) => {
     default: {
       x: cursorPos.x - 10,
       y: cursorPos.y - 10,
-      backgroundColor: '#EDD2B9',
+      backgroundColor: '#ffe4ca',
       opacity: 1
     },
     text: {

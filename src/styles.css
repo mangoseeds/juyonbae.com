@@ -20,7 +20,7 @@
     left: 0;
 }
 .about-section {
-    background: url("./images/about.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("./images/about.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,27 +100,27 @@
 .subpage-bottom {
     /* width: 100%; */
     height: 100%;
-    margin: auto;
-
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 30px;
-
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 h1 {
     font-style: italic;
     font-weight: 700;
-    color: #EDD2B9;
+    color: #ffe4ca;
     text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
 }
 
 .title {
     font-style: italic;
     font-weight: 700;
-    color: #EDD2B9;
+    color: #ffe4ca;
     text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
     font-size: 2em;
 }
@@ -129,6 +129,30 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: inherit;
+    font-style: normal;
+}
+a:hover{
+    font-style: italic;
+}
+.egg {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-style: inherit;
+}
+
+p {
+    font-style: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: 1.8;
+}
+
+ul {
+    font-style: inherit;
+    font-size: inherit;
+    line-height: 1.5;
+
 }
 
 Link {
@@ -154,7 +178,7 @@ Link {
     margin-left: auto;
     margin-bottom: auto;
     font-weight: 700;
-    color: #EDD2B9;
+    color: #ffe4ca;
     text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
 }
 .big-item:hover{
@@ -169,23 +193,74 @@ Link {
     margin-left: auto;
     margin-bottom: auto;
     font-weight: 700;
-    color: #EDD2B9;
+    color: #ffe4ca;
     text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
 }
 
-.section-title {
-    color: #EDD2B9;
-    font-style: italic;
-    text-shadow: -1.3px 0 #2D2824, 0 1.3px #2D2824, 1.3px 0 #2D2824, 0 -1.3px #2D2824;
-    font-size: 2em;
-}
-.section-detail {
-    color: #2D2824;
+.small-item {
+    width: auto;
+    text-decoration: none;
     font-style: normal;
+    text-align: right;
+    margin-left: auto;
+    font-weight: 700;
+    color: #ffe4ca;
+    text-shadow: -1.3px 0 #2D2824, 0 1.3px #2D2824, 1.3px 0 #2D2824, 0 -1.3px #2D2824;
+}
+
+.section {
+    padding: 1em;
+}
+
+.section-title {
+    color: #ffe4ca;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: -1px 0 #2D2824, 0 1px #2D2824, 1px 0 #2D2824, 0 -1px #2D2824;
+    font-size: 1.3em;
+    padding-bottom: 10px;;
+}
+
+.section-detail {
+    color: #e0cab5;
+    font-style: normal;
+    font-weight: 700;
     font-size: 1em;
+    text-shadow: -1px 0 #2D2824, 0 1px #2D2824, 1px 0 #2D2824, 0 -1px #2D2824;
     padding: 5px;
 }
 
+@media (min-width:200px)  { 
+    .mainpage{
+        align-content: space-around;
+        flex-direction: column;
+    }
+    .mainpage-top {
+        width: 100%;
+        height: auto;
+    }
+    .subpage-top {
+        padding: 10px;
+    }
+    .subpage-bottom {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2.3em;
+        padding: 10px;
+    }
+    .title {
+        padding-left: 10px;
+    }
+    .big-item{
+        font-size: 2em;
+        padding: 10px 0 10px 0;
+    }
+    .small-item{
+        font-size: 1.5em;
+        padding: 10px 0 10px 0;
+    }
+}
 
 @media (min-width:320px)  { 
     /* smartphones, iPhone, portrait 480x320 phones */ 
@@ -197,14 +272,26 @@ Link {
         width: 100%;
         height: auto;
     }
+    .subpage-top {
+        padding: 10px;
+    }
+    .subpage-bottom {
+        padding: 10px;
+    }
     h1 {
-        font-size: 2em;
+        font-size: 3em;
+        padding: 10px;
     }
     .big-item{
-        font-size: 2.5em;
+        font-size: 3em;
+        padding: 10px 0 10px 0;
     }
     .big-item-still{
-        font-size: 2.5em;
+        font-size: 3em;
+    }
+    .small-item{
+        font-size: 1.7em;
+        padding: 10px 0 10px 0;
     }
 }
 @media (min-width:481px)  { 
@@ -216,6 +303,12 @@ Link {
         width: 100%;
         height: auto;
     }
+    .subpage-top {
+        padding: 20px;
+    }
+    .subpage-bottom {
+        padding: 20px;
+    }
     h1 {
         font-size: 2.5em;
     }
@@ -224,6 +317,10 @@ Link {
     }
     .big-item-still{
         font-size: 2.5em;
+    }
+    .small-item{
+        text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
+        font-size: 2em;
     }
 }
 @media (min-width:641px)  { 
@@ -235,6 +332,12 @@ Link {
         width: auto;
         height: auto;
     }
+    .subpage-top {
+        padding: 20px;
+    }
+    .subpage-bottom {
+        padding: 20px;
+    }
     h1 {
         font-size: 3.5em;
     }
@@ -244,11 +347,21 @@ Link {
     .big-item-still{
         font-size: 3em;
     }
+    .small-item{
+        text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
+        font-size: 2.5em;
+    }
 }
 @media (min-width:961px)  { 
     /* tablet, landscape iPad, lo-res laptops ands desktops */
     .mainpage{
         flex-direction: row;
+    }
+    .subpage-top {
+        padding: 20px;
+    }
+    .subpage-bottom {
+        padding: 20px;
     }
     h1 {
         font-size: 5em;
@@ -259,11 +372,20 @@ Link {
     .big-item-still{
         font-size: 4.5em;
     }
+    .small-item{
+        font-size: 4em;
+    }
 }
 @media (min-width:1025px) { 
     /* big landscape tablets, laptops, and desktops */ 
     .mainpage{
         flex-direction: row;
+    }
+    .subpage-top {
+        padding: 20px;
+    }
+    .subpage-bottom {
+        padding: 20px;
     }
     h1 {
         font-size: 6em;
@@ -273,6 +395,10 @@ Link {
     }
     .big-item-still{
         font-size: 5em;
+    }
+    .small-item{
+        text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
+        font-size: 4.5em;
     }
 }
 @media (min-width:1281px) { 
@@ -284,6 +410,12 @@ Link {
         width: auto;
         height: auto;
     }
+    .subpage-top {
+        padding: 20px;
+    }
+    .subpage-bottom {
+        padding: 20px;
+    }
     h1 {
         font-size: 7em;
     }
@@ -291,6 +423,10 @@ Link {
         font-size: 5em;
     }
     .big-item-still{
+        font-size: 5em;
+    }
+    .small-item{
+        text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
         font-size: 5em;
     }
 }

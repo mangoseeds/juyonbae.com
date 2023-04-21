@@ -14,57 +14,78 @@ const About = () => {
         transition={{ delay: 0.3, duration: 1 }}
         className='about-section'
     >
-        <main>
-            <div classname="title">
-                <h1>about</h1>
+        <div className="subpage">
+            <div className="subpage-top">
+                <div className="title">about</div>
+
             </div>
-            <div class="about-info-area"> 
-                <div class="section">
-                    <h2>Introduction</h2>
-                    <p>I am a student at Ewha Womens University majoring in computer science and engineering with strong interest in data science and data analytics.</p>
-                    <p>I also love art and music! All the photos on this website is taken by me on my film camera.</p>
+            <div className="subpage-bottom"> 
+                <div className="section">
+                    <div className="section-title">
+                        {/* <p>I'm Juyon. Currently pursuing a computer science bachelor's degree.</p> */}
+                        <p>Making and building things have always excited me.</p>
+                        <p>I love coming up with new ideas and starting on a project to make it come true!</p>
+                    </div>
+                    <div className="section-title">
+                        <p>Art and music has been a big part of my life. It keeps me inspired for more creativity.</p>
+                        <p>All photos on this website is taken by me on my film camera.</p>
+                    </div>
+                </div>
+                <div className="section">
+                    <div className="section-title">
+                        <p>-skills-</p>
+                    </div>
+                    <div className="section-detail">
+                        <p><strong>Programming:</strong> Python, Java, C, SQL, Linux, Latex</p>
+                        <p><strong>Languages:</strong> Fluent English and Korean. Basic Japanese and French.</p>    
+                    </div>        
                 </div>
                 <div class="section">
-                    <h2>Skills</h2>
-                    <p><span class="main">Programming:</span> Python, Java, C, SQL, Linux, Latex</p>
-                    <p><span class="main">Languages:</span> Fluent English and Korean. Basic Japanese and French. </p>            
-                </div>
-                <div class="section">
-                    <h2>Education</h2>
-                    <p><span class="main">Ewha Womens University, Seoul, South Korea</span>
-                    <span class="small">BS in Computer Science and Engineering</span>
-                    <ul>
-                        <li>CS Courses: Data Structures, Computer Algorithms, Operating Systems, Database, Computer Architecture, Information Communications</li>
-                        <li>Math Courses: Calculus, Probability and Statistics, Discrete Mathematics, Linear Algebra</li>
-                        <li><strong>Dean’s List</strong> in 2020 Spring, 2020 Fall</li>
-                    </ul>
-                    </p>
-                    <p><span class="main">Hunter College, New York City, United States</span>
-                        <span class="small">Visiting Student</span>
+                    <div className="section-title">
+                        <p>-education-</p>
+                    </div>
+                    <div className="section-detail">
+                        <p>Ewha Womens University, currently enrolled in Computer Science and Engineering degree</p> 
                         <ul>
-                            <li>CS Courses: CS Courses: Logic and Computers, Algorithms (Graduate Level)</li>
+                            <li><em>CS Courses:</em> Data Structures, Computer Algorithms, Operating Systems, Database, Computer Architecture, Information Communications</li>
+                            <li><em>Math Courses:</em> Calculus, Probability and Statistics, Discrete Mathematics, Linear Algebra</li>
+                            <li><em>Dean’s List in 2020 Spring, 2020 Fall</em></li>
                         </ul>
-                    </p>
+                        <p>Hunter College, Visiting Student</p>
+                        {/* <ul>
+                            <li><em>CS Courses:</em> Logic and Computers, Algorithms (Graduate Level)</li>
+                        </ul> */}
+                    </div>  
                 </div>
+
                 <div class="section">
-                    <h2>Leadership</h2>
-                    <p> <span class="main">Google Developer Student Club at Hunter College</span>
-                    <ul><li>Core Member</li></ul></p>
-                    <p><span class="main">Ewha Womens University Hip Hop Club</span>
-                        <ul><li>President</li>
-                        <li>Treasurer</li></ul></p>
-                    <p><span class="main">University Hip Hop Club Association</span>
-                        <ul><li>Treasurer</li></ul></p>
+                    <div className="section-title">
+                        <p>-leadership-</p>
+                    </div>
+                    <div className="section-detail">
+                        <p>Core Member at <em>Google Developer Student Club, Hunter College</em></p>
+                        <p>President of <em>Ewha Womens University <a className="egg" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=hwtp11xrGG0&ab_channel=ewhauniv">Hip Hop Club</a></em></p>
+                        <p>Treasurer of <em>Ewha Womens University Hip Hop Club</em></p>
+                        <p>Treasurer of <em>University Hip Hop Club Association</em></p>
+                    </div>  
+                </div>  
+
+                <div class="section">
+                    <div className="section-title">
+                        <p>-experience-</p>
+                    </div>
+                    <div className="section-detail">
+                        <p>Dacon School Computer Vision Program</p>  
+                        <ul>
+                            <li>Learned the fundamentals of computer vision, including NumPy, PyPlot, Keras libraries.</li>
+                            <li>Created an image classification learning model that detects numbers in images. Applied techniques such as batch normalization, pooling, and cross‑validation. The final model showed 93% accuracy.</li>
+                            <li>Awarded the best tutee certificate for outstanding accomplishments and participation in the class.</li>
+                        </ul>    
+                    </div>  
                 </div>
-            </div>       
-            <h2>Experience</h2>
-            <h3>Dacon School Computer Vision Program</h3>
-            <ul>
-                <li>Learned the fundamentals of computer vision, including NumPy, PyPlot, Keras libraries.</li>
-                <li>Created an image classification learning model that detects numbers in images. Applied techniques such as batch normalization, pooling, and cross‑validation. The final model showed 93% accuracy.</li>
-                <li>Awarded the best tutee certificate for outstanding accomplishments and participation in the class.</li>
-            </ul>         
-        </main>
+                  
+            </div>               
+        </div>
     </motion.section>
   );
 };

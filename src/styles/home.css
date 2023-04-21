@@ -19,7 +19,7 @@
     left: 0;
     pointer-events: none;
     z-index: 5;
-    background-color: #EDD2B9;
+    background-color: #ffe4ca;
 } */
 
 .main{
@@ -39,7 +39,7 @@
 h1 {
     font-style: italic;
     font-weight: 700;
-    color: #EDD2B9;
+    color: #ffe4ca;
     text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
 }
 
@@ -83,7 +83,7 @@ a {
     margin-left: auto;
     margin-top: auto;
     font-weight: 700;
-    color: #EDD2B9;
+    color: #ffe4ca;
     text-shadow: -2px 0 #2D2824, 0 2px #2D2824, 2px 0 #2D2824, 0 -2px #2D2824;
 }
 
