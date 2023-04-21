@@ -42,7 +42,7 @@ const Projects = () => {
                   </div>        
               </div>
               <div className="section">
-                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/8888">Christmas MBTI test website (in progress)</a>
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/christmas-personality-test">Christmas MBTI test website (in progress)</a>
                   </div>
                   <div className="section-detail">
                     Visually simple and appeasing MBTI test website with a Christmas theme.
