@@ -21,7 +21,7 @@ const Projects = () => {
 
           <div className="subpage-bottom"> 
               <div className="section">
-                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/juyonbae.com">Video Log (in progress)</a>
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="#">Video Log (in progress)</a>
                   </div>
                   <div className="section-detail">
                     Video-journaling Android application.
