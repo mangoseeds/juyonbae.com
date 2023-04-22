@@ -20,7 +20,7 @@
     left: 0;
 }
 .about-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("./images/about.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./images/about.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@
     left: 0;
 }
 .projects-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),  url("./images/projects.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url("./images/projects.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,7 +46,7 @@
     left: 0;
 }
 .contact-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("./images/contact.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./images/contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,7 +210,7 @@ Link {
 }
 
 .section-detail {
-    color: #e6ccb4;
+    color: #ffe4ca;
     font-style: normal;
     font-weight: 700;
     font-size: 1em;
