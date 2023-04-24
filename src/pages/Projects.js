@@ -28,7 +28,7 @@ const Projects = () => {
                   </div>        
               </div>
               <div className="section">
-                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/juyonbae.com">My Website</a>
+                  <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/juyonbae.com">My Website: juyonbae.com</a>
                   </div>
                   <div className="section-detail">
                     My website (the page you are on right now!) built using Netlify and Github. Started with html and css file and transitioned it to react. 
@@ -45,14 +45,14 @@ const Projects = () => {
                   <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/christmas-personality-test">Christmas MBTI test website (in progress)</a>
                   </div>
                   <div className="section-detail">
-                    Visually simple and appeasing MBTI test website with a Christmas theme.
+                    MBTI test website with a Christmas theme. Simple interface with vibrant colors. 
                   </div>        
               </div>
               <div className="section">
                   <div className="section-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mangoseeds/RacingCarGame">Racing Car Game using Python</a>
                   </div>
                   <div className="section-detail">
-                    A racing game with visuals and music using PyGame.
+                    A racing game with visuals and background music using PyGame.
                   </div>        
               </div>
 

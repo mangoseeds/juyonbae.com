@@ -146,6 +146,7 @@ p {
     font-size: inherit;
     color: inherit;
     line-height: 1.8;
+    padding-top: 8px;
 }
 
 ul {
@@ -198,6 +199,16 @@ Link {
 
 .section {
     padding: 1em;
+}
+
+.section-main {
+    color: #ffe4ca;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: -1px 0 #2D2824, 0 1px #2D2824, 1px 0 #2D2824, 0 -1px #2D2824;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .section-title {

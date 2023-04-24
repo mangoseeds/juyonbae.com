@@ -23,12 +23,12 @@ const About = () => {
                 <div className="section">
                     <div className="section-title">
                         {/* <p>I'm Juyon. Currently pursuing a computer science bachelor's degree.</p> */}
-                        <p>Coming up with a creative idea and making it come true in real life always excites me.</p>
-                        <p>A keen eye to detail and meticulous planning has helped me in the journey to achieving my ideas. I especially enjoy working on a project that can bring convenience to people's day-to-day life experience.</p>
+                        <p>Coming up with a creative idea and making it come true excites me.</p>
+                        <p>A keen eye to detail and planning has helped in my journey to achieving ideas. I especially enjoy working on a project that brings convenience to people's day-to-day life making small yet impactful change.</p>
                     </div>
                     <div className="section-title">
                         <p>Art and music is a big part of my life as well! It keeps me inspired for more creativity.</p>
-                        <p>(All photos on this website is taken by me on my film camera)</p>
+                        <p>(Fun Fact: all photos on this website is taken by me on film)</p>
                     </div>
                 </div>
                 <div className="section">
@@ -52,9 +52,9 @@ const About = () => {
                             <li><em>Dean’s List in 2020 Spring, 2020 Fall</em></li>
                         </ul>
                         <p>Hunter College, Visiting Student</p>
-                        {/* <ul>
+                        <ul>
                             <li><em>CS Courses:</em> Logic and Computers, Algorithms (Graduate Level)</li>
-                        </ul> */}
+                        </ul>
                     </div>  
                 </div>
 
@@ -78,12 +78,13 @@ const About = () => {
                         <p>Dacon School Computer Vision Program</p>  
                         <ul>
                             <li>Learned the fundamentals of computer vision, including NumPy, PyPlot, Keras libraries.</li>
-                            <li>Created an image classification learning model that detects numbers in images. Applied techniques such as batch normalization, pooling, and cross‑validation. The final model showed 93% accuracy.</li>
-                            <li>Awarded the best tutee certificate for outstanding accomplishments and participation in the class.</li>
+                            <li>Created an image classification learning model with 93% accuracy that detects numbers in images. Applied techniques such as batch normalization, pooling, and cross‑validation.</li>
+                            <li>Awarded <em>the best tutee certificate</em> for outstanding accomplishments and participation in the class.</li>
                         </ul>   
+                       <p></p>
                         <p>After‑School Computer Science Class Teacher</p>  
                         <ul>
-                            <li>Prepared lessons for students grades K-5, and taught classes with 15-20 students.</li>
+                            <li>Prepared lessons for students grades K-5.</li>
                             <li>Simplified complex topics such as computer science, machine learning, electrical engineering, and robotics, into digestible lessons for younger students.</li>
                             <li>Delivered hands-on teaching to improve comprehension and provide in-depth answers</li>
                         </ul>   
