@@ -1,6 +1,7 @@
 # Personal Website
-www.juyonbae.com
 This project creates my personal website using HTML, CSS and JavaScript. The goal was to build a simple, minimalistic website to showcase my skills and interests. The site uses Netlify for deployment.
+Check it out here: https://juyonbae.com
+
 
 ## About
 My personal website offers a curated glimpse into my creative endeavors. 
