@@ -14,26 +14,14 @@ Netlify for hosting
 
 # Features
 The website includes:
-
-A landing page 
-An about page that 
-A project page that lists my projects and links to github repositories
-A contact page with ways to get in touch
+Landing page, About page, Project page, Contact page
 
 Responsive mobile-first design with photos I took
 Smooth scrolling and transitions between sections
 Netlify form handling and deployment
 
-# Running the Site Locally
-To run the site locally:
-
-Clone this repo
-Open index.html in your browser
-Explore the pages and images!
-Note: The Netlify form functionality will only work on the deployed site. Locally, the form is static.
-
 # Live Site and Netlify
-The site is deployed on Netlify and can be viewed live at: juyonbae.com
+The site is deployed on Netlify and can be viewed live at: [juyonbae.com](https://juyonbae.com)
 
 Netlify was used to:
 
